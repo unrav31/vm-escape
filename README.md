@@ -13,7 +13,7 @@ VM Escape challenges.
   ```bash
   # host OS
   gcc -m32 exp.c -o exp
-  scp -P5555 ubuntu@127.0.0.1:/home/ubuntu
+  scp -P5555 exp ubuntu@127.0.0.1:/home/ubuntu
   
   # guest OS
   sudo su
